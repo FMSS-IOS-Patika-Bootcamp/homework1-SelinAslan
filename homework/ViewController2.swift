@@ -10,13 +10,16 @@ import UIKit
 class ViewController2: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var surnameLabel: UILabel!
     
     var message:String?
+    var message2:String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         nameLabel.text = message!
+        surnameLabel.text = message2!
     }
     
     
